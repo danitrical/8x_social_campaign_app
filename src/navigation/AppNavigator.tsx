@@ -23,10 +23,12 @@ export const AppNavigator: React.FC = () => (
           borderBottomColor: Colors.border,
         },
         headerTitleStyle: {
-          fontSize: Typography.sizes.md,
+          fontSize: Typography.sizes.base,
           fontWeight: Typography.weights.bold,
           color: Colors.text.primary,
         },
+        headerBackTitle: '',
+        headerBackVisible: false,
         headerTintColor: Colors.primary,
         cardStyle: { backgroundColor: Colors.background },
       }}
